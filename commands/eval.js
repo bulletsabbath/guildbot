@@ -20,6 +20,7 @@ module.exports = {
         const evaluate = args.join(" ");
         let evaled = eval(evaluate);
         if (typeof evaled !== "string") evaled = require("util").inspect(evaled);
+        //token doesnt work lmfao
         if (evaled.includes("Nzc0MzY5Nzg1NTE2NjU0NjIz.X6WyDw.tP7aC2U9949gUEdgtsbz5NPYbHg")) return msg.edit("no fuck you lmao");
 
         try {
